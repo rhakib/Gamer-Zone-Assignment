@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans';
+}
+
+/* header styles */
+header {
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    max-width: 80%;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo span {
+    color: #FF42A5;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav li {
+    list-style: none;
+    margin: 15px;
+}
+
+.logo img {
+    width: 60px;
+}
+
+.logo h2 {
+    font-size: 1.7rem;
+}
+
+.follow-us {
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    width: 220px;
+    height: 50px;
+    text-align: center;
+    
+}
+.follow-us .fa-brands{
+    margin-right: 15px ;
+    font-size: 1.3rem;
+    color: red;
+}
+.follow-us .fa-tiktok{
+    color: #000000;
+}
+
+/* banner section styles */
+
+.banner-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.banner-img img{
+    width: 550px;
+    height: 500px;
+}
