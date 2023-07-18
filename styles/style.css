@@ -50,25 +50,67 @@ nav li {
     width: 220px;
     height: 50px;
     text-align: center;
-    
+
 }
-.follow-us .fa-brands{
-    margin-right: 15px ;
+
+.follow-us .fa-brands {
+    margin-right: 15px;
     font-size: 1.3rem;
     color: red;
 }
-.follow-us .fa-tiktok{
+
+.follow-us .fa-tiktok {
     color: #000000;
 }
 
 /* banner section styles */
 
-.banner-section{
+.banner-section {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    width: 1440px;
+    margin-top: 30px;
+
 }
-.banner-img img{
+
+.banner-img img {
     width: 550px;
     height: 500px;
+}
+
+.banner-info {
+    background-image: url(../images/Group14.png);
+    width: 550px;
+    text-align: center;
+    padding: 220px 0px;
+    
+
+}
+
+
+.play-like {
+    color: #0B0223;
+    font-size: 2.2rem;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.banner-info h1 {
+    font-size: 4rem;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* main section started */
+
+/* online games styles started */
+
+.online-games-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    max-width: 1140px;
+    margin: 0 auto;
 }
