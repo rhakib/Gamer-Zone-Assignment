@@ -234,15 +234,26 @@ nav li {
 /* .action-game-section{
     
 } */
-.action-game-1,
-.action-game-2 {
-    display: flex;
-    align-items: center;
-    gap: 15px;
-    justify-content: center;
+.action-game-1 {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
     margin-top: 30px;
     font-size: 1.3rem;
+    margin-left: 50px;
 
+}
+.action-game-2 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 30px;
+    font-size: 1.3rem;
+    margin-left: 50px;
+
+}
+.action-game-section{
+    max-width: 80%;
+    margin: 0 auto;
+    
 }
 
 .action-game-1 img {
@@ -401,8 +412,6 @@ footer .logo {
 
 
 @media screen and (max-width: 576px) {
-    .action-game-1,
-    .action-game-2,
     nav,
     nav ul,
     .banner-section,
@@ -442,7 +451,9 @@ footer .logo {
         grid-template-columns: repeat(2, 1fr);
         gap: 15px;
     }
-    
+    .action-game-1, .action-game-2{
+        grid-template-columns: repeat(3, 1fr);
+    }
 
 }
 
