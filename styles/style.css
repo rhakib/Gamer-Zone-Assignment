@@ -95,7 +95,6 @@ nav li {
     color: #0B0223;
     font-size: 2.2rem;
     font-weight: 600;
-    line-height: normal;
 }
 
 .banner-info h1 {
@@ -151,6 +150,7 @@ nav li {
    justify-content: space-around;
    padding: 0px 185px;
    gap: 200px;
+   margin-top: 80px;
 }
 .play-instantly-img .play-back-img{
     width: 450px;
@@ -163,4 +163,73 @@ nav li {
 .play-instantly-info{
     margin-top: 150px;
     text-align: right;
+    margin-left: 100px;
+}
+.play-instantly-info h1{
+    font-size: 2.3rem;
+}
+.play-instantly-info span{
+    color:  #F948B2;
+
+}
+.play-instantly-info p{
+    margin-top: 20px;
+    color: #534C64;
+}
+.play-front-img-container{
+    position: relative;
+    bottom: 215px;
+    right: 100px;
+
+}
+/* action-game-section styles */
+/* .action-game-section{
+    
+} */
+.action-game-1, .action-game-2{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    justify-content: center;
+    margin-top: 30px;
+    font-size: 1.3rem;
+    
+}
+.action-game-1 img{
+    width: 45px;
+}
+.action-game-2 img{
+    width: 45px;
+}
+.action-game-1 h6{
+    margin-right: 10px;
+    margin-left: -5px;
+}
+.action-game-2 h6{
+    margin-right: 10px;
+    margin-left: -5px;
+}
+
+/* footer styles started */
+footer{
+    background-color: #0B0223;
+    text-align: center;
+    padding: 200px;
+}
+footer h2{
+    color: white;
+}
+footer ul{ 
+    list-style: none;
+    display: flex;
+    gap: 35px;
+
+}
+footer ul a{
+    color: white;
+    text-decoration: none;
+}
+.footer-info{
+    text-align: center;
+    margin-left: 250px;
 }
