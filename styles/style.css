@@ -419,10 +419,14 @@ footer .logo {
         margin-left: 100px;
     }
     .banner-section{
-        margin-left: 240px;
+        margin-left: 280px;
     }
     nav{
         margin-left: 160px;
+    }
+    .banner-info{
+        padding: 70px 0px;
+        
     }
 
 }
