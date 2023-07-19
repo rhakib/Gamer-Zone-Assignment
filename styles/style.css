@@ -188,9 +188,8 @@ nav li {
 
 .play-instantly-section {
     display: flex;
-    justify-content: space-around;
-    padding: 0px 185px;
-    gap: 200px;
+    justify-content: center;
+    gap: 240px;
     margin-top: 80px;
 }
 
@@ -267,7 +266,6 @@ nav li {
 /* footer styles started */
 footer {
     background-color: #0B0223;
-    text-align: center;
     height: 70vh;
     margin-top: 80px;
     display: flex;
@@ -280,13 +278,24 @@ footer h2 {
     color: white;
 }
 
-footer ul {
-    list-style: none;
-    display: flex;
-    gap: 35px;
+ .footer-text {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
 
 }
+.footer-icon {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
 
+}
+.terms-conditions {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+}
+footer ul{
+    list-style: none;
+}
 footer ul a {
     color: white;
     text-decoration: none;
@@ -303,7 +312,6 @@ footer ul a {
 .footer-icon {
     font-size: 1.5rem;
     margin-top: 30px;
-    margin-left: 150px;
 
 }
 
@@ -402,9 +410,7 @@ footer .logo {
         flex-direction: column;
     }
 
-    .online-games-container,
-    .footer-text,
-    .footer-icon {
+    .online-games-container{
         flex-wrap: wrap;
     }
     .online-games-section{
@@ -428,6 +434,15 @@ footer .logo {
         padding: 70px 0px;
         
     }
+    .footer-text, .footer-icon{
+        grid-template-columns: repeat(3, 1fr);
+        gap: 15px;
+    }
+    .terms-conditions{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+    }
+    
 
 }
 
