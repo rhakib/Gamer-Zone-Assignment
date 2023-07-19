@@ -69,7 +69,6 @@ nav li {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 1340px;
     margin-top: 30px;
 
 }
@@ -77,6 +76,9 @@ nav li {
 .banner-img img {
     width: 550px;
     height: 500px;
+}
+.banner-img{
+    margin-right: 100px;
 }
 
 .banner-info {
@@ -372,4 +374,14 @@ footer .logo {
   }
   .card-overlay:hover .middle {
     opacity: 1;
+  }
+
+  .middle-text .fa-circle-play{
+    font-size: 3rem;
+    color: white;
+  }
+  .middle-text p{
+    color: #FF42A5;
+    font-weight: 600;
+    font-size: 1.2rem;
   }
