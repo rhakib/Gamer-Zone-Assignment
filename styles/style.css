@@ -581,6 +581,9 @@ footer .logo {
     .play-instantly-section {
         flex-direction: column;
     }
+    .banner-section{
+        gap: 50px;
+    }
 
     nav {
         gap: 30px;
