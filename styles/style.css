@@ -608,6 +608,11 @@ footer .logo {
     .action-game-section {
         max-width: 90%;
     }
+    .we-are-gamer-section{
+        flex-direction: column-reverse;
+        margin-left: 60px;
+        margin-top: 40px;
+    }
 
 
 }
