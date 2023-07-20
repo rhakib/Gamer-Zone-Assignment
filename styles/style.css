@@ -78,6 +78,10 @@ nav a {
     align-items: center;
     margin-top: 30px;
     gap: 230px;
+    background-image: url(../images/Group14.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left;
 
 
 }
@@ -88,9 +92,8 @@ nav a {
 }
 
 .banner-info {
-
-    text-align: left;
-}
+    text-align: left;    
+}    
 
 .banner-button {
     display: flex;
