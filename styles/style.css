@@ -81,7 +81,7 @@ nav a {
     background-image: url(../images/Group14.png);
     background-repeat: no-repeat;
     background-size: contain;
-    background-position: left;
+    
 
 
 }
@@ -569,6 +569,7 @@ footer .logo {
         margin-right: 250px;
         margin-top: 40px;
     }
+    
 
 }
 
